@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Parking.Application\Parking.Application.csproj" />
+      <ProjectReference Include="..\Parking.Core\Parking.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Humanizer" Version="2.14.1" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.6" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+      <PackageReference Include="RavenDB.Client" Version="7.0.4" />
+      <PackageReference Include="Serilog" Version="4.3.0" />
+      <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+      <PackageReference Include="Serilog.Extensions.Logging" Version="9.0.2" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="9.0.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="9.0.1" />
+    </ItemGroup>
+
+</Project>

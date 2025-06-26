@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking.Api", "Parking.Api\Parking.Api.csproj", "{E1633552-A223-4BD5-89FF-4AA5EBF34F68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30D6EF50-A0AE-4E4E-88CB-C991F0D5F48E}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5929C222-3C15-4AE8-A233-7F14663B8FBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking.Application", "Parking.Application\Parking.Application.csproj", "{1FAA7216-4B25-4CE6-BA73-F1BCC62D7265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking.Infrastructure", "Parking.Infrastructure\Parking.Infrastructure.csproj", "{5F1D6CA0-4BB6-482A-9ED1-44B07D577BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking.Core", "Parking.Core\Parking.Core.csproj", "{29C3CF56-AC6B-4EA0-890E-240CBA20A25F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1633552-A223-4BD5-89FF-4AA5EBF34F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1633552-A223-4BD5-89FF-4AA5EBF34F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1633552-A223-4BD5-89FF-4AA5EBF34F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1633552-A223-4BD5-89FF-4AA5EBF34F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAA7216-4B25-4CE6-BA73-F1BCC62D7265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAA7216-4B25-4CE6-BA73-F1BCC62D7265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAA7216-4B25-4CE6-BA73-F1BCC62D7265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAA7216-4B25-4CE6-BA73-F1BCC62D7265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1D6CA0-4BB6-482A-9ED1-44B07D577BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1D6CA0-4BB6-482A-9ED1-44B07D577BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1D6CA0-4BB6-482A-9ED1-44B07D577BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1D6CA0-4BB6-482A-9ED1-44B07D577BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C3CF56-AC6B-4EA0-890E-240CBA20A25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C3CF56-AC6B-4EA0-890E-240CBA20A25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C3CF56-AC6B-4EA0-890E-240CBA20A25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C3CF56-AC6B-4EA0-890E-240CBA20A25F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1633552-A223-4BD5-89FF-4AA5EBF34F68} = {5929C222-3C15-4AE8-A233-7F14663B8FBD}
+		{1FAA7216-4B25-4CE6-BA73-F1BCC62D7265} = {5929C222-3C15-4AE8-A233-7F14663B8FBD}
+		{5F1D6CA0-4BB6-482A-9ED1-44B07D577BA4} = {5929C222-3C15-4AE8-A233-7F14663B8FBD}
+		{29C3CF56-AC6B-4EA0-890E-240CBA20A25F} = {5929C222-3C15-4AE8-A233-7F14663B8FBD}
+	EndGlobalSection
+EndGlobal
