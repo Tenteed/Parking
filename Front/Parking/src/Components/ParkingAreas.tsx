@@ -6,16 +6,11 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import ParkingAreaManagement from "./ParkingAreaManagement.tsx";
+import type {ParkingArea} from "../Shared/ParkingArea.tsx";
 
-interface ParkingArea {
-  id: string;
-  name: string;
-  weekdayHourlyRate: number;
-  weekendHourlyRate: number;
-  discountPercentage: number;
-}
 
-const ParkingArea = () => {
+const ParkingAreas = () => {
   const [parkingAreas, setParkingAreas] = useState<ParkingArea[]>([]);
 
   useEffect(() => {
@@ -32,6 +27,7 @@ const ParkingArea = () => {
   return(
     <>
         <TableContainer component={Paper}>
+          <ParkingAreaManagement />
           <Table>
             <TableHead>
               <TableRow>
@@ -62,4 +58,4 @@ const ParkingArea = () => {
   )
 }
 
-export default ParkingArea
+export default ParkingAreas

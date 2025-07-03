@@ -16,8 +16,8 @@ public class PaymentCalculationController : ControllerBase
     }
     
     [HttpGet]
-    public async Task Get()
+    public async Task Get(GetPaymentCalculationRequest request)
     {
-        await _paymentCalculation.CalculatePrice(new GetPaymentCalculationRequest());
+        await _paymentCalculation.CalculatePrice(request);
     }
 }
